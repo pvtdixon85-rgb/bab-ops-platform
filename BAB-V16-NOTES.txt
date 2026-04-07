@@ -1,0 +1,9 @@
+BAB Ops Platform v16
+
+New in this version:
+- Management-only auth flow
+- Login page
+- Session cookie auth using AUTH_SECRET
+- Protected dashboard, jobs, calendar, crew, labor order pages
+- Logout button
+- Release-ready access control foundation

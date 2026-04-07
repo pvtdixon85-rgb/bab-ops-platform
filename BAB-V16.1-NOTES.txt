@@ -1,0 +1,6 @@
+BAB Ops Platform v16.1
+
+Default owner account: pvt.dixon85@gmail.com
+Password-based login enabled
+Account Management page added
+You can add and remove accounts from inside the platform

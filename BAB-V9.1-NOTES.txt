@@ -1,0 +1,1 @@
+BAB Ops Platform v9.1\n\nFixes:\n- Uploaded attachments now carry through to the BAB Labor Order reliably\n- Attachment metadata is preserved when saving typed attachment edits\n- Labor order attachment table now renders uploaded links more robustly\n

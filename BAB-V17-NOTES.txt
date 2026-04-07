@@ -1,0 +1,7 @@
+BAB Ops Platform v17
+
+New in this version:
+- Job Status Pipeline added to dashboard
+- Standardized statuses: New Lead, Reviewing, Approved, Scheduled, In Progress, Completed, Archived
+- Create Job and Job Admin now use the new status system
+- Dashboard summary cards now reflect pipeline counts

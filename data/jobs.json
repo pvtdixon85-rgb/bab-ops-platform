@@ -1,0 +1,76 @@
+[
+  {
+    "id": "BAB-2026-001",
+    "client": "Northstar Exhibits",
+    "show": "CES 2026",
+    "location": "Las Vegas, NV",
+    "start": "2026-04-10",
+    "end": "2026-04-13",
+    "booth": "20x30 Island",
+    "labor": "6 Installers",
+    "status": "Scheduled",
+    "notes": "Client needs flooring, lighting, and install lead onsite.",
+    "projectManager": "Aaron Dixon",
+    "accountManager": "BAB Management",
+    "exhibitorContact": "Melissa Hart",
+    "exhibitorEmail": "melissa@northstar.com",
+    "boothNumber": "2145",
+    "venue": "Las Vegas Convention Center",
+    "cityLead": "Marcus Reed",
+    "installTime": "08:00",
+    "dismantleTime": "16:00",
+    "specialInstructions": "Lead to confirm flooring layout before graphic install.",
+    "billTo": "Northstar Exhibits AP",
+    "attachments": [
+      {
+        "type": "Rendering",
+        "name": "booth_rendering.pdf"
+      },
+      {
+        "type": "Floor Plan",
+        "name": "floor_plan.pdf"
+      }
+    ],
+    "crew": [
+      "Andre Lewis",
+      "Marcus Reed"
+    ]
+  },
+  {
+    "id": "BAB-2026-002",
+    "client": "Summit Display Co.",
+    "show": "Expo West",
+    "location": "Anaheim, CA",
+    "start": "2026-04-15",
+    "end": "2026-04-17",
+    "booth": "10x20 Inline",
+    "labor": "3 Installers",
+    "status": "Reviewing",
+    "notes": "Waiting on final graphics package and booth plan upload.",
+    "projectManager": "Aaron Dixon",
+    "accountManager": "BAB Management",
+    "exhibitorContact": "Jamie Cole",
+    "exhibitorEmail": "jamie@summitdisplay.com",
+    "boothNumber": "118",
+    "venue": "Anaheim Convention Center",
+    "cityLead": "Andre Lewis",
+    "installTime": "09:00",
+    "dismantleTime": "17:00",
+    "specialInstructions": "Graphics to be verified before unpack.",
+    "billTo": "Summit Display Co. Billing",
+    "attachments": [
+      {
+        "type": "Rendering",
+        "name": "booth_rendering.pdf"
+      },
+      {
+        "type": "Floor Plan",
+        "name": "floor_plan.pdf"
+      }
+    ],
+    "crew": [
+      "Open Slot 1",
+      "Open Slot 2"
+    ]
+  }
+]

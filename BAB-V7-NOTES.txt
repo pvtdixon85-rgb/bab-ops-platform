@@ -1,0 +1,11 @@
+BAB Ops Platform v7
+
+New in this version:
+- Crew directory file added
+- Click-to-add crew names from directory
+- Delete job from UI
+- Duplicate job from UI
+- Edit core job fields after creation
+- Attachment editor improved
+- Calendar layout improved with time + location details
+- Real file upload is next

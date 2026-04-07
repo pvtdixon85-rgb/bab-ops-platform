@@ -1,0 +1,122 @@
+WINDOWS QUICK START
+
+1. Extract all files from this ZIP
+2. Double-click run.bat
+3. Your browser should open to http://localhost:3000
+
+If dependencies are already installed, you can use start.bat
+
+
+v4 REAL changes:
+- /jobs/new create job screen
+- jobs saved into data/jobs.json
+- dashboard and jobs list read saved data
+- API route: app/api/jobs/route.js
+
+
+v4.1 fixes:
+- Job detail now uses entered job data
+- Labor order now uses entered job data
+- Calendar now creates events from saved jobs
+
+
+BAB workflow statuses:
+- Request Received
+- Reviewing Scope
+- Quote Ready
+- Approved
+- Lead Assigned
+- Crew Scheduled
+- On Show Floor
+- Closeout Pending
+- Completed
+
+
+v5 adds:
+- custom install time input
+- custom dismantle time input
+- labor order uses entered times
+
+
+v7 adds:
+- crew directory
+- delete jobs
+- improved calendar cards
+- easier crew assignment
+
+
+v7 roadmap step adds:
+- edit core job fields
+- duplicate jobs
+- crew directory
+- delete jobs
+- improved calendar cards
+
+
+v9 adds:
+- real file upload
+- clickable attachment links
+- uploads stored by job id
+
+
+v10 adds:
+- BAB Packet Builder ZIP
+- includes labor order html + uploaded attachments
+- packet download button on job pages
+
+
+v11 adds:
+- PDF BAB Labor Order inside packet
+- packet includes PDF + HTML + uploaded files
+
+
+v12 adds:
+- operations calendar
+- crew directory page
+- add crew members from UI
+
+
+v14 adds:
+- attachment removal
+- fake test files
+- install/dismantle checklists
+- lead checklist in labor order
+
+
+v15 adds:
+- attachment categories
+- replace uploaded files
+- lead packet summary
+
+
+v16 adds:
+- login page
+- management-only access
+- protected app pages
+- logout button
+
+Setup:
+1. copy .env.example to .env.local
+2. set MANAGEMENT_EMAILS and AUTH_SECRET
+3. npm install
+4. npm run dev
+
+
+v16.1 changes:
+- default admin email: pvt.dixon85@gmail.com
+- default password: Moneys44**
+- account management page added
+- add/remove accounts from inside the app
+
+
+v17 adds:
+- job status pipeline
+- standardized status workflow
+- dashboard pipeline summary
+
+
+v18 adds:
+- role-based access control
+- role assignment in accounts page
+- more reliable attachment persistence after edits
+- role-aware navigation

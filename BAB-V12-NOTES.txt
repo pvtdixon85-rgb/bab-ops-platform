@@ -1,0 +1,8 @@
+BAB Ops Platform v12
+
+New in this version:
+- Operations Calendar view with clickable event cards
+- Crew Directory page
+- Add crew members from the UI
+- Crew API routes
+- Crew nav section added

@@ -1,0 +1,8 @@
+BAB Ops Platform v9
+
+New in this version:
+- Real file upload to public/uploads/job-id/
+- Uploaded files attach to the job record automatically
+- Job detail page shows clickable uploaded files
+- BAB labor order shows uploaded files as links
+- Typed attachment editing still works

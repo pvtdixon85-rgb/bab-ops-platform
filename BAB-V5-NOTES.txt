@@ -1,0 +1,8 @@
+BAB Ops Platform v5
+
+New in this version:
+- Start date now supports a custom install time input
+- End date now supports a custom dismantle time input
+- Job detail page shows custom times
+- BAB labor order shows custom times
+- Default 8 AM / 4 PM assumption removed

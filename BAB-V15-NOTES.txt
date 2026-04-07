@@ -1,0 +1,9 @@
+BAB Ops Platform v15
+
+New in this version:
+- Attachment categories grouped by type
+- Replace uploaded files from UI
+- Remove uploaded files from UI
+- Fake file testing still supported
+- Lead Packet Summary added to job page
+- Packet file section wording polished

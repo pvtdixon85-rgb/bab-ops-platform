@@ -1,0 +1,5 @@
+BAB Ops Platform v11
+
+New in this version:
+- Real PDF BAB Labor Order generated inside the packet
+- Packet now includes PDF + HTML + uploaded attachments + README

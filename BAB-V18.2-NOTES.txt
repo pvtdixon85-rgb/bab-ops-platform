@@ -1,0 +1,6 @@
+BAB Ops Platform v18.2
+
+Fixes:
+- Leads can still view the Crew Directory
+- Leads can no longer add or remove crew members
+- Only hr, owner, and master-level accounts can manage crew records

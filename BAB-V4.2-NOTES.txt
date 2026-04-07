@@ -1,0 +1,8 @@
+BAB Ops Platform v4.2
+
+Fixes:
+- Removed server/client fs conflict properly
+- Added PrintButton client component
+- Applied BAB-specific workflow labels
+- Renamed labor order views to BAB naming
+- Kept create-job -> job detail -> labor order -> calendar flow

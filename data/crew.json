@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Marcus Reed",
+    "role": "Lead Installer",
+    "region": "West"
+  },
+  {
+    "name": "Andre Lewis",
+    "role": "Installer",
+    "region": "West"
+  },
+  {
+    "name": "Darius Cole",
+    "role": "Lead Installer",
+    "region": "Southeast"
+  },
+  {
+    "name": "Troy Bennett",
+    "role": "Installer",
+    "region": "Southeast"
+  },
+  {
+    "name": "Carlos Vega",
+    "role": "Installer",
+    "region": "South"
+  }
+]

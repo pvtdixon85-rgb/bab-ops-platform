@@ -1,0 +1,13 @@
+BAB Ops Platform v18.3
+
+Fixes and changes:
+- Crew accounts can access Calendar
+- Crew now only see jobs assigned to their account in Calendar
+- Unauthorized page no longer shows the role tier list
+- Crew assignment now also stores matched crew emails from the Crew Directory when available
+
+Planned for final version:
+- Auto-create accounts when employees are added using employee email
+- Random temporary password generation
+- Force password change on first login
+- Dedicated Patch Notes page covering the full build history

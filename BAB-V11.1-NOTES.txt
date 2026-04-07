@@ -1,0 +1,6 @@
+BAB Ops Platform v11.1
+
+Fixes:
+- Packet route now fails gracefully instead of throwing a 500 when PDF generation fails
+- Dynamically loads pdfkit
+- If PDF creation fails, the packet still downloads with HTML + attachments + PDF-ERROR.txt

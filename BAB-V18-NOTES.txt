@@ -1,0 +1,9 @@
+BAB Ops Platform v18
+
+Fixes and upgrades:
+- Uploaded files now preserve attachment metadata more reliably after job edits
+- Role-based access levels added: master, owner, hr, manager, lead, crew
+- Accounts page can add users with roles
+- Existing accounts can have roles changed from the UI
+- Navigation and page access now respect role permissions
+- Logout remains available from the header

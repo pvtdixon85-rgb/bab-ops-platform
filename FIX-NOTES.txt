@@ -1,0 +1,6 @@
+v2.1 import fix
+
+This update adds jsconfig.json so Next.js resolves imports like @/components/Shell and @/lib/mock-data.
+After extracting, run:
+npm install
+npm run dev

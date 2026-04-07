@@ -1,0 +1,2 @@
+BAB Ops Platform v13
+- Assign crew directly from directory into jobs

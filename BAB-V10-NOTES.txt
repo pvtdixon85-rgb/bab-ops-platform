@@ -1,0 +1,1 @@
+BAB Ops Platform v10\n\nNew in this version:\n- BAB Packet Builder ZIP\n- Downloads a single zip containing:\n  * BAB-Labor-Order.html\n  * uploaded job attachments\n  * README.txt\n- Download button added on Job Detail and BAB Labor Order pages\n- Best for lead handoff and keeping all related files together\n

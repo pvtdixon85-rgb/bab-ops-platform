@@ -1,0 +1,8 @@
+BAB Ops Platform v14
+
+New in this version:
+- Remove uploaded attachments from UI
+- Add fake test files from UI for packet testing
+- Install checklist on job page
+- Dismantle checklist on job page
+- Lead checklist section added to BAB Labor Order

@@ -1,0 +1,6 @@
+BAB Ops Platform v18.1
+
+Fixes:
+- Prevents redirect loop for lower-access roles like crew
+- Adds /unauthorized page for signed-in users without permission
+- Login now redirects based on role more safely
