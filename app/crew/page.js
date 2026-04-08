@@ -1,30 +1,38 @@
+"use client";
+
 import Shell from "@/components/Shell";
 import { readCrew } from "@/lib/data-store";
-import CrewManager from "@/components/CrewManager";
-import { requireRole, getSession, roleAtLeast } from "@/lib/auth-session";
 
-export default async function CrewPage() {
-  await requireRole("lead");
-  const session = await getSession();
+export default function CrewPage() {
   const crew = readCrew();
-  const canManageCrew = roleAtLeast(session?.role || "crew", "hr");
+
+  async function handleDelete(id) {
+    if (!confirm("Delete this crew member?")) return;
+
+    await fetch(`/api/crew/${id}`, {
+      method: "DELETE",
+    });
+
+    location.reload();
+  }
 
   return (
-    <Shell title="Crew Directory" subtitle="View BAB crew members, regions, and contact information.">
+    <Shell title="Crew Directory" subtitle="View BAB crew members">
       <div className="card">
         <div className="section-title">Current Crew</div>
-        <div className="section-sub">
-          {canManageCrew
-            ? "This directory feeds crew assignment throughout the platform."
-            : "You can view the crew directory, but only HR, owner, and master accounts can add or remove crew members."}
-        </div>
         <div className="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>Name</th><th>Role</th><th>Region</th><th>Phone</th><th>Email</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Region</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Actions</th>
               </tr>
             </thead>
+
             <tbody>
               {crew.map((member) => (
                 <tr key={member.name}>
@@ -33,19 +41,21 @@ export default async function CrewPage() {
                   <td>{member.region}</td>
                   <td>{member.phone || "-"}</td>
                   <td>{member.email || "-"}</td>
+
+                  <td>
+                    <button
+                      className="button danger"
+                      onClick={() => handleDelete(encodeURIComponent(member.name))}
+                    >
+                      Delete
+                    </button>
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
       </div>
-
-      {canManageCrew ? (
-        <>
-          <div style={{ height: 18 }} />
-          <CrewManager />
-        </>
-      ) : null}
     </Shell>
   );
 }
