@@ -1,10 +1,20 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Shell from "@/components/Shell";
-import { readCrew } from "@/lib/data-store";
 
 export default function CrewPage() {
-  const crew = readCrew();
+  const [crew, setCrew] = useState([]);
+
+  async function loadCrew() {
+    const res = await fetch("/api/crew");
+    const data = await res.json();
+    setCrew(data);
+  }
+
+  useEffect(() => {
+    loadCrew();
+  }, []);
 
   async function handleDelete(id) {
     if (!confirm("Delete this crew member?")) return;
@@ -13,13 +23,14 @@ export default function CrewPage() {
       method: "DELETE",
     });
 
-    location.reload();
+    loadCrew(); // refresh without reload
   }
 
   return (
     <Shell title="Crew Directory" subtitle="View BAB crew members">
       <div className="card">
         <div className="section-title">Current Crew</div>
+
         <div className="table-wrap">
           <table>
             <thead>
@@ -45,7 +56,9 @@ export default function CrewPage() {
                   <td>
                     <button
                       className="button danger"
-                      onClick={() => handleDelete(encodeURIComponent(member.name))}
+                      onClick={() =>
+                        handleDelete(encodeURIComponent(member.name))
+                      }
                     >
                       Delete
                     </button>
@@ -53,6 +66,7 @@ export default function CrewPage() {
                 </tr>
               ))}
             </tbody>
+
           </table>
         </div>
       </div>
